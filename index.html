@@ -2,11 +2,8 @@
 <html>
 <style>
     html,body {
-        padding: 0px, 0px, 0px, 0px;
-        margin-left: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-right: 0px;
+        margin: 0;
+        padding: 0;
     }
     body {
         background-color: white;
@@ -75,7 +72,6 @@
         color: #ff7b29;   
     }
 
-
     #divbestGDZ {
         padding-left: 0px;
         margin-left: 0px;
@@ -100,23 +96,30 @@
     #wrapper {
         background-color: rgb(230, 230, 230);
         max-width: 500px;
+        float:left;
     }
 </style>
-
 <style>
+    .center {
+        margin-top: 0;
+    }
+    #h1GDZ {
+        padding: 100px 0px 0px 0px;
+        font-size: 50px;
+        text-align: center;
+    }
 </style>
-
 <head>
     <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GeniusGDZ</title>
 </head>
 <body>
-    <div class="page">
+    <div id="page">
         <div id="wrapper">
             <header class="header">
-                <img src="https://github.com/tverdui-ponos/GeniusGDZ/blob/main/%D0%B3%D0%B4%D0%B7/logoforsite.png?raw=true" height="150" width="300">
-                <a href="" class="logo" title=""></a>
+                    <img src="https://github.com/tverdui-ponos/GeniusGDZ/blob/main/%D0%B3%D0%B4%D0%B7/logoforsite.png?raw=true" height="150" width="300" alt="logo">
+                    <a href="" class="logo" title=""></a>
             </header>
             <input type="checkbox" id="menuBox" class="menuButton"> 
                 <label class="menuButton" for="menuBox">&#9776;</label>
@@ -131,23 +134,24 @@
                     Лучшие Решебники, Гдз
                 </div>
             </div>
-                <div id="divbestGDZ">
+            <div id="divbestGDZ">
                     <figure class="bestGDZ">
-                        <img src="https://resheba.top/_pu/2/98544332.jpg" height="200" width="200" alt="ГДЗ">
+                    <img src="https://resheba.top/_pu/2/98544332.jpg" height="200" width="200" alt="ГДЗ">
                         <figcaption class="bestGDZ"><a class="bestGDZ" href="#"> ГДЗ</a></figcaption>
                     </figure>
                     <figure class="bestGDZ">
                         <img src="https://resheba.top/_pu/2/98544332.jpg" height="200" width="200" alt="ГДЗ">
                         <figcaption class="bestGDZ"><a class="bestGDZ" href="#"> ГДЗ-1</a></figcaption>
-                    </figure>
+                    </figure>            
                     <figure class="bestGDZ">
                         <img src="https://resheba.top/_pu/2/98544332.jpg" height="200" width="200" alt="ГДЗ">
                         <figcaption class="bestGDZ"><a class="bestGDZ" href="#"> ГДЗ-2</a></figcaption>
                     </figure>
-                </div>
+            </div>
         </div>
-        <div id="center">
-            
+        <div class="center">
+            <h1 id="h1GDZ" class="center"> <em> ГДЗ за 1-11 классы </em> </h1>
+            <hr align="left" width="800" size="3" color="black" /> </br>
         </div>
     </div>
 </body>
